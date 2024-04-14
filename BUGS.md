@@ -7,7 +7,7 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "co2": 1000, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что слово 'тонна' не склоняется в описании счетчика co2<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact2|
 |Фактический результат|Описание счетчика co2: '1 тонн co2'|
 |Ожидаемый результат|Описание счетчика co2: '1 тонна co2'|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case2.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_2.png)|
 
 || Ошибка 2|
 |:---| :---| 
@@ -17,7 +17,7 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "water": 999999, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что в описании счетчика воды '1000 m3'<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact3|
 |Фактический результат|Описание счетчика воды: '1000 m3'|
 |Ожидаемый результат|Описание счетчика воды: '1 тыс m3'|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case3.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_3.png)|
 
 || Ошибка 3|
 |:---| :---| 
@@ -27,7 +27,7 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "co2": 999999, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что в описании счетчика co2 '1000 тонн co2'<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact3|
 |Фактический результат|Описание счетчика co2: '1000 тонн co2'|
 |Ожидаемый результат|Описание счетчика co2: '1 тыс тонн co2'|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case3.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_3.png)|
 
 || Ошибка 4|
 |:---| :---| 
@@ -37,7 +37,7 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "energy": 999999, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что в описании счетчика энергии '1000 мВТ/ч'<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact3|
 |Фактический результат|Описание счетчика энергии: '1000 мВТ/ч'|
 |Ожидаемый результат|Описание счетчика энергии: '1 тыс мВТ/ч'|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case3.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_3.png)|
 
 || Ошибка 5|
 |:---| :---| 
@@ -47,7 +47,7 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "co2": 1000000, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что в описании счетчика co2 '1 млн кг co2' - кг не переведены в тонны<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact4|
 |Фактический результат|Описание счетчика co2: '1 млн кг co2'|
 |Ожидаемый результат|Описание счетчика co2: '1 тыс тонн co2'|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case4.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_4.png)|
 
 || Ошибка 6|
 |:---| :---| 
@@ -57,7 +57,7 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "energy": 1000000, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что в описании счетчика энергии '1 млн кВТ/ч' - кВТ/ч не переведены в мВТ/ч<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact4|
 |Фактический результат|Описание счетчика энергии: '1 млн кВТ/ч'|
 |Ожидаемый результат|Описание счетчика энергии: '1 тыс мВТ/ч'|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case4.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_4.png)|
 
 || Ошибка 7|
 |:---| :---| 
@@ -67,7 +67,7 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "water": 999999999, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что в описании счетчика воды '1000 тыс m3'<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact5|
 |Фактический результат|Описание счетчика воды: '1000 тыс m3'|
 |Ожидаемый результат|Описание счетчика воды: '1 млн m3'|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case5.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_5.png)|
 
 || Ошибка 8|
 |:---| :---| 
@@ -77,7 +77,7 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "co2": 999999999, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что в описании счетчика co2 '1000 млн кг co2'<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact5|
 |Фактический результат|Описание счетчика co2: '1000 млн кг co2'|
 |Ожидаемый результат|Описание счетчика co2: '1 млн тонн co2'|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case5.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_5.png)|
 
 || Ошибка 9|
 |:---| :---| 
@@ -87,7 +87,7 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "energy": 999999999, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что в описании счетчика энергии '1000 млн кВТ/ч'<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact5|
 |Фактический результат|Описание счетчика энергии: '1000 млн кВТ/ч'|
 |Ожидаемый результат|Описание счетчика энергии: '1 млн мВТ/ч'|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case5.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_5.png)|
 
 || Ошибка 10|
 |:---| :---| 
@@ -97,5 +97,5 @@
 |Шаги воспроизведения| 1. Переопределить init-запрос на обновления счетчиков (Override content)<br>2. Выставить значение для ключа "energy": 1000000000, сохранить запрос<br>3. Обновить страницу<br>4. Убедиться, что текст накладывается и становится труднодоступен для восприятия<br> _или_ <br> пройти [автотест](https://github.com/y-titova/qa_avito.start/blob/main/test_cases_eco_impact.py) test_eco_impact6|
 |Фактический результат|Текст описание счетчика энергии '1 млн мВТ/ч энергии' накладывается на текст 'было сэкономлено'|
 |Ожидаемый результат|Блоки изолированы, текст описания счетчика доступен для чтения|
-|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/test_case6.png)|
+|Дополнение|[Скрин счетчиков](https://github.com/y-titova/qa_avito.start/blob/main/output/TCEI_6.png)|
                                     
